@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Great+Vibes&family=Noto+Serif+Devanagari:wght@300;400;600&family=Poppins:wght@300;400;500&display=swap');
+
+:root {
+  --ivory:      #F5EDD5;
+  --ivory-2:    #EFE0C5;
+  --gold:       #C4921A;
+  --gold-light: #E8C060;
+  --gold-dark:  #8B640A;
+  --text:       #2A1505;
+  --text-med:   #5A3010;
+  --text-light: #9A7050;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+
+body {
+  background: var(--ivory);
+  color: var(--text);
+  font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+#root {
+  max-width: 430px;
+  margin: 0 auto;
+  overflow-x: hidden;
+  position: relative;
+}
+
+button { all: unset; cursor: pointer; }
+a { color: inherit; text-decoration: none; }
