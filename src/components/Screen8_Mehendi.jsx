@@ -72,7 +72,7 @@ export default function Screen8_Mehendi() {
           { icon: '📅', label: 'Date',  text: '29 November 2026' },
           { icon: '🕔', label: 'Time',  text: '5:00 PM onwards' },
           { icon: '📍', label: 'Venue', text: 'Bihar Stay, Patna\nOpp. S Raza Girls High School' },
-          { icon: '🥻', label: 'Dress', text: 'Boho / Ethnic Green' },
+          { icon: '🥻', label: 'Dress', text: 'Ethnic Green' },
         ].map(({ icon, label, text }) => (
           <motion.div key={label} variants={fadeUp} style={{
             display: 'flex', alignItems: 'flex-start', gap: '12px',
