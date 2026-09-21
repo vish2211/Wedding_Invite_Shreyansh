@@ -180,7 +180,7 @@ export default function Screen5_FamilyInvitation() {
             <div style={{ height: '0.5px', background: 'rgba(232,192,96,0.35)', marginBottom: '10px' }} />
             {[
               'सचिन्द्र कुमार मिश्रा',
-              'एवं बंधना मिश्रा',
+              'एवं बन्दना मिश्रा',
               'कोमल नंदिनी',
               'एवं समस्त मिश्रा परिवार',
             ].map((line, i) => (
