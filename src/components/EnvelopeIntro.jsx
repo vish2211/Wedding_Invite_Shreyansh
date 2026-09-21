@@ -80,7 +80,7 @@ export default function EnvelopeIntro({ onComplete, musicOn, onMusicToggle }) {
 
         {/* family names small */}
         <p style={{
-          fontFamily: 'Cormorant Garamond, serif',
+          fontFamily: 'Playfair Display, serif',
           fontStyle: 'italic',
           fontSize: '12px',
           color: 'rgba(90,48,16,0.50)',
@@ -98,7 +98,7 @@ export default function EnvelopeIntro({ onComplete, musicOn, onMusicToggle }) {
         }}>
           <div style={{ height: '1px', width: '36px', background: 'rgba(196,146,26,0.40)' }} />
           <p style={{
-            fontFamily: 'Cormorant Garamond, serif',
+            fontFamily: 'Playfair Display, serif',
             fontSize: '11px', letterSpacing: '4px',
             color: 'rgba(196,146,26,0.58)', textTransform: 'uppercase',
           }}>30 November 2026</p>
@@ -111,7 +111,7 @@ export default function EnvelopeIntro({ onComplete, musicOn, onMusicToggle }) {
           transition={{ duration: 2.2, repeat: Infinity }}
         >
           <p style={{
-            fontFamily: 'Noto Serif Devanagari, serif',
+            fontFamily: 'Laila, serif',
             fontSize: '22px',
             color: '#5A3010',
             marginBottom: '3px',
@@ -119,7 +119,7 @@ export default function EnvelopeIntro({ onComplete, musicOn, onMusicToggle }) {
             स्पर्श करें
           </p>
           <p style={{
-            fontFamily: 'Cormorant Garamond, serif',
+            fontFamily: 'Playfair Display, serif',
             fontStyle: 'italic',
             fontSize: '12px',
             color: 'rgba(90,48,16,0.48)',

@@ -125,7 +125,7 @@ export default function Screen5_FamilyInvitation() {
         {/* WITH GRATITUDE */}
         <motion.p variants={fadeUp} style={{
           fontFamily: 'Poppins, sans-serif',
-          fontWeight: 300, fontSize: '10px',
+          fontWeight: 400, fontSize: '12px',
           letterSpacing: '6px', textTransform: 'uppercase',
           color: GOLD_DIM, marginBottom: '8px',
         }}>
@@ -134,7 +134,7 @@ export default function Screen5_FamilyInvitation() {
 
         {/* सप्रेम आमंत्रण */}
         <motion.h2 variants={fadeUp} style={{
-          fontFamily: 'Noto Serif Devanagari, serif',
+          fontFamily: 'Laila, serif',
           fontSize: '34px', fontWeight: 500,
           color: CREAM, marginBottom: '16px',
           textShadow: '0 2px 16px rgba(232,192,96,0.20)',
@@ -151,7 +151,7 @@ export default function Screen5_FamilyInvitation() {
 
         {/* opening poem */}
         <motion.p variants={fadeUp} style={{
-          fontFamily: 'Noto Serif Devanagari, serif',
+          fontFamily: 'Laila, serif',
           fontSize: '15px', fontWeight: 400,
           color: CREAM, lineHeight: 2.0,
           marginBottom: '20px',
@@ -172,7 +172,7 @@ export default function Screen5_FamilyInvitation() {
             padding: '14px 10px',
           }}>
             <p style={{
-              fontFamily: 'Noto Serif Devanagari, serif',
+              fontFamily: 'Laila, serif',
               fontSize: '14px', fontWeight: 600,
               color: GOLD, marginBottom: '10px',
               letterSpacing: '1px',
@@ -185,12 +185,12 @@ export default function Screen5_FamilyInvitation() {
               'एवं समस्त मिश्रा परिवार',
             ].map((line, i) => (
               <p key={i} style={{
-                fontFamily: 'Noto Serif Devanagari, serif',
+                fontFamily: 'Laila, serif',
                 fontSize: i === 3 ? '13px' : '12.5px',
                 fontWeight: i === 3 ? 500 : 400,
                 color: CREAM,
                 lineHeight: 1.85,
-                fontStyle: i === 1 ? 'italic' : 'normal',
+                fontStyle: 'italic',
               }}>{line}</p>
             ))}
           </div>
@@ -205,7 +205,7 @@ export default function Screen5_FamilyInvitation() {
             padding: '14px 10px',
           }}>
             <p style={{
-              fontFamily: 'Noto Serif Devanagari, serif',
+              fontFamily: 'Laila, serif',
               fontSize: '14px', fontWeight: 600,
               color: GOLD, marginBottom: '10px',
               letterSpacing: '1px',
@@ -213,21 +213,21 @@ export default function Screen5_FamilyInvitation() {
             <div style={{ height: '0.5px', background: 'rgba(232,192,96,0.35)', marginBottom: '10px' }} />
             {[
               'सुबोध नारायण झा',
-              'एवं रंजू झा',
+              'एवं रंजु झा',
               'प्रिय झा एवं बलराज झा',
               'मोहिनी झा',
               'एवं अपूर्व प्रतीक',
-              'श्रद्धा झा',
+              'श्रद्धा सुमन',
               'एवं सृष्टि सुमन',
               'एवं समस्त झा परिवार',
             ].map((line, i) => (
               <p key={i} style={{
-                fontFamily: 'Noto Serif Devanagari, serif',
+                fontFamily: 'Laila, serif',
                 fontSize: i === 7 ? '13px' : '12.5px',
                 fontWeight: i === 7 ? 500 : 400,
                 color: CREAM,
                 lineHeight: 1.85,
-                fontStyle: (i === 1 || i === 4 || i === 6) ? 'italic' : 'normal',
+                fontStyle: 'italic',
               }}>{line}</p>
             ))}
           </div>
@@ -240,18 +240,18 @@ export default function Screen5_FamilyInvitation() {
 
         {/* closing poem */}
         <motion.p variants={fadeUp} style={{
-          fontFamily: 'Noto Serif Devanagari, serif',
+          fontFamily: 'Laila, serif',
           fontSize: '14px', fontWeight: 400,
           color: CREAM, lineHeight: 2.0,
           marginBottom: '20px',
         }}>
-          {poem}
+          
         </motion.p>
 
         {/* Vishakha | Shreyansh */}
         <motion.div variants={fadeUp} style={{ display: 'flex', alignItems: 'center', gap: '10px', justifyContent: 'center', marginBottom: '4px' }}>
           <div style={{ flex: 1, height: '1px', background: `linear-gradient(to right, transparent, ${GOLD_DIM})` }} />
-          <span style={{ fontFamily: 'Great Vibes, cursive', fontSize: '22px', color: GOLD }}>
+          <span style={{ fontFamily: 'Great Vibes, cursive', fontSize: '30px', color: GOLD }}>
             Vishakha &nbsp; & &nbsp; Shreyansh
           </span>
           <div style={{ flex: 1, height: '1px', background: `linear-gradient(to left, transparent, ${GOLD_DIM})` }} />
@@ -259,7 +259,7 @@ export default function Screen5_FamilyInvitation() {
 
         <motion.p variants={fadeUp} style={{
           fontFamily: 'Poppins, sans-serif',
-          fontWeight: 300, fontSize: '9px',
+          fontWeight: 400, fontSize: '12px',
           letterSpacing: '5px', textTransform: 'uppercase',
           color: CREAM_DIM, marginBottom: '18px',
         }}>

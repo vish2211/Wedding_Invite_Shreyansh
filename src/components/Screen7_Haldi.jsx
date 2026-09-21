@@ -21,7 +21,7 @@ export default function Screen7_Haldi() {
           color: HCL, marginBottom: '4px',
         }}>The Ceremony</p>
         <h2 style={{
-          fontFamily: 'Cormorant Garamond, serif',
+          fontFamily: 'Playfair Display, serif',
           fontSize: '56px', fontWeight: 300,
           lineHeight: 0.9, margin: 0,
           color: '#3A1A00', letterSpacing: '6px',
@@ -58,7 +58,7 @@ export default function Screen7_Haldi() {
         }}
       >
         <motion.p variants={fadeUp} style={{
-          fontFamily: 'Cormorant Garamond, serif',
+          fontFamily: 'Playfair Display, serif',
           fontStyle: 'italic', fontSize: '15px',
           color: '#7A4A00', lineHeight: 1.6,
           marginBottom: '6px',

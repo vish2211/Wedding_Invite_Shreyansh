@@ -39,7 +39,7 @@ export default function Screen13_RSVP() {
   }
 
   const labelStyle = {
-    fontFamily: 'Noto Serif Devanagari, serif',
+    fontFamily: 'Laila, serif',
     fontSize: '13px',
     color: '#5A3010',
     display: 'block',
@@ -72,7 +72,7 @@ export default function Screen13_RSVP() {
         <motion.p
           variants={fadeUp}
           style={{
-            fontFamily: 'Cormorant Garamond, serif',
+            fontFamily: 'Playfair Display, serif',
             fontStyle: 'italic', fontSize: '11px',
             letterSpacing: '5px', textTransform: 'uppercase',
             color: GOLD, opacity: 0.55, marginBottom: '8px',
@@ -84,7 +84,7 @@ export default function Screen13_RSVP() {
         <motion.h2
           variants={fadeUp}
           style={{
-            fontFamily: 'Noto Serif Devanagari, serif',
+            fontFamily: 'Laila, serif',
             fontSize: '32px', fontWeight: 400,
             color: '#2A1505', marginBottom: '6px',
           }}
@@ -95,7 +95,7 @@ export default function Screen13_RSVP() {
         <motion.p
           variants={fadeUp}
           style={{
-            fontFamily: 'Noto Serif Devanagari, serif',
+            fontFamily: 'Laila, serif',
             fontSize: '14px', color: '#7A5030', marginBottom: '18px',
           }}
         >
@@ -155,7 +155,7 @@ export default function Screen13_RSVP() {
                   background: GOLD,
                   color: '#fff',
                   borderRadius: '6px',
-                  fontFamily: 'Noto Serif Devanagari, serif',
+                  fontFamily: 'Laila, serif',
                   fontSize: '17px',
                   letterSpacing: '1px',
                   cursor: 'pointer',
@@ -168,7 +168,7 @@ export default function Screen13_RSVP() {
               </button>
 
               <p style={{
-                fontFamily: 'Cormorant Garamond, serif',
+                fontFamily: 'Playfair Display, serif',
                 fontStyle: 'italic',
                 fontSize: '11px', color: '#9A7050',
                 marginTop: '10px', textAlign: 'center',
@@ -191,14 +191,14 @@ export default function Screen13_RSVP() {
             >
               <p style={{ fontSize: '40px', marginBottom: '12px' }}>🪷</p>
               <p style={{
-                fontFamily: 'Noto Serif Devanagari, serif',
+                fontFamily: 'Laila, serif',
                 fontSize: '22px', color: '#2A1505',
                 marginBottom: '8px',
               }}>
                 धन्यवाद
               </p>
               <p style={{
-                fontFamily: 'Noto Serif Devanagari, serif',
+                fontFamily: 'Laila, serif',
                 fontSize: '14px', color: '#7A5030',
                 lineHeight: 1.9, marginBottom: '14px',
               }}>
@@ -206,7 +206,7 @@ export default function Screen13_RSVP() {
               </p>
               <OrnamentalDivider />
               <p style={{
-                fontFamily: 'Cormorant Garamond, serif',
+                fontFamily: 'Playfair Display, serif',
                 fontStyle: 'italic',
                 fontSize: '14px', color: '#9A7050', marginTop: '14px',
               }}>
@@ -221,14 +221,14 @@ export default function Screen13_RSVP() {
           <motion.div variants={fadeUp} style={{ marginTop: '24px' }}>
             <TripleDot style={{ justifyContent: 'center' }} />
             <p style={{
-              fontFamily: 'Noto Serif Devanagari, serif',
+              fontFamily: 'Laila, serif',
               fontSize: '18px', color: '#2A1505',
               margin: '14px 0 4px',
             }}>
               विशाखा &amp; श्रेयांश
             </p>
             <p style={{
-              fontFamily: 'Cormorant Garamond, serif',
+              fontFamily: 'Playfair Display, serif',
               fontStyle: 'italic',
               fontSize: '13px', color: '#9A7050',
             }}>

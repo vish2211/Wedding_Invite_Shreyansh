@@ -20,12 +20,12 @@ function CountBox({ value, hindiLabel, label }) {
       textAlign: 'center',
     }}>
       <p style={{
-        fontFamily: 'Cormorant Garamond, serif',
+        fontFamily: 'Playfair Display, serif',
         fontSize: '40px', fontWeight: 400,
         color: GOLD, lineHeight: 1, marginBottom: '4px',
       }}>{display}</p>
       <p style={{
-        fontFamily: 'Noto Serif Devanagari, serif',
+        fontFamily: 'Laila, serif',
         fontSize: '11px', color: '#7A5030',
         marginBottom: '2px',
       }}>{hindiLabel}</p>
@@ -173,7 +173,7 @@ export default function Screen3_DateReveal() {
         </motion.p>
 
         <motion.h2 variants={fadeUp} style={{
-          fontFamily: 'Noto Serif Devanagari, serif',
+          fontFamily: 'Laila, serif',
           fontSize: '34px', fontWeight: 400,
           color: '#2A1505', marginBottom: '18px',
         }}>
@@ -193,7 +193,7 @@ export default function Screen3_DateReveal() {
           marginBottom: '20px',
         }}>
           <p style={{
-            fontFamily: 'Noto Serif Devanagari, serif',
+            fontFamily: 'Laila, serif',
             fontSize: '17px', fontWeight: 400,
             color: '#3A1A00', lineHeight: 2.1,
           }}>
@@ -229,12 +229,12 @@ export default function Screen3_DateReveal() {
                   marginBottom: '16px',
                 }}>
                   <p style={{
-                    fontFamily: 'Cormorant Garamond, serif',
+                    fontFamily: 'Playfair Display, serif',
                     fontSize: '52px', fontWeight: 300,
                     color: GOLD, lineHeight: 1, marginBottom: '4px',
                   }}>30</p>
                   <p style={{
-                    fontFamily: 'Cormorant Garamond, serif',
+                    fontFamily: 'Playfair Display, serif',
                     fontSize: '22px', fontWeight: 400,
                     color: '#5A3010', letterSpacing: '5px',
                     textTransform: 'uppercase', marginBottom: '2px',
@@ -247,7 +247,7 @@ export default function Screen3_DateReveal() {
                 </div>
 
                 <p style={{
-                  fontFamily: 'Noto Serif Devanagari, serif',
+                  fontFamily: 'Laila, serif',
                   fontSize: '14px', color: '#7A5030',
                   marginBottom: '12px', opacity: 0.75,
                 }}>

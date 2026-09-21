@@ -13,19 +13,19 @@ function FamilyBlock({ side, father, mother }) {
   return (
     <div style={{ textAlign: 'center' }}>
       <p style={{
-        fontFamily: 'Cormorant Garamond, serif',
+        fontFamily: 'Playfair Display, serif',
         fontSize: '10px', letterSpacing: '2px',
         color: 'rgba(74,32,16,0.5)',
         textTransform: 'uppercase', marginBottom: '6px',
       }}>{side}</p>
       {/* father and mother: same font, same size */}
       <p style={{
-        fontFamily: 'Cormorant Garamond, serif',
+        fontFamily: 'Playfair Display, serif',
         fontSize: '13px', color: 'rgba(50,10,2,0.88)',
         lineHeight: 1.5, fontWeight: '500',
       }}>{father}</p>
       <p style={{
-        fontFamily: 'Cormorant Garamond, serif',
+        fontFamily: 'Playfair Display, serif',
         fontSize: '13px', color: 'rgba(50,10,2,0.88)',
         lineHeight: 1.5, fontWeight: '500',
       }}>{mother}</p>
@@ -68,7 +68,7 @@ export default function HeroSlide() {
           style={{ padding: '22px 14px 0', textAlign: 'center' }}
         >
           <motion.p variants={fadeUp} style={{
-            fontFamily: 'Noto Serif Devanagari, serif',
+            fontFamily: 'Laila, serif',
             fontSize: '20px', color: 'rgba(245,208,96,0.9)',
             marginBottom: '10px',
           }}>
@@ -128,26 +128,26 @@ export default function HeroSlide() {
             justifyContent: 'center', gap: '10px', flexWrap: 'wrap', marginBottom: '4px',
           }}>
             <div style={{ textAlign: 'center' }}>
-              <div style={{ ...shimmer, fontFamily: 'Great Vibes, cursive', fontSize: '46px', lineHeight: 1.1 }}>
+              <div style={{ ...shimmer, fontFamily: 'Pinyon Script, cursive', fontSize: '46px', lineHeight: 1.1 }}>
                 Vishakha
               </div>
               <p style={{
-                fontFamily: 'Cormorant Garamond, serif', fontSize: '10px',
+                fontFamily: 'Playfair Display, serif', fontSize: '10px',
                 letterSpacing: '3px', color: 'rgba(74,32,16,0.45)',
                 textTransform: 'uppercase',
               }}>Vaishnavi</p>
             </div>
             <span style={{
               color: 'rgba(196,132,26,0.6)',
-              fontFamily: 'Noto Serif Devanagari, serif',
+              fontFamily: 'Laila, serif',
               fontSize: '22px', alignSelf: 'center', marginTop: '-12px',
             }}>&amp;</span>
             <div style={{ textAlign: 'center' }}>
-              <div style={{ ...shimmer, fontFamily: 'Great Vibes, cursive', fontSize: '46px', lineHeight: 1.1 }}>
+              <div style={{ ...shimmer, fontFamily: 'Pinyon Script, cursive', fontSize: '46px', lineHeight: 1.1 }}>
                 Shreyansh
               </div>
               <p style={{
-                fontFamily: 'Cormorant Garamond, serif', fontSize: '10px',
+                fontFamily: 'Playfair Display, serif', fontSize: '10px',
                 letterSpacing: '3px', color: 'rgba(74,32,16,0.45)',
                 textTransform: 'uppercase',
               }}>Shekhar</p>
@@ -160,7 +160,7 @@ export default function HeroSlide() {
             flexWrap: 'wrap', marginTop: '10px',
           }}>
             <span style={{
-              fontFamily: 'Cormorant Garamond, serif',
+              fontFamily: 'Playfair Display, serif',
               fontSize: '13px', color: 'rgba(74,32,16,0.65)',
               background: 'rgba(196,132,26,0.1)',
               borderRadius: '4px', padding: '4px 12px',
@@ -169,7 +169,7 @@ export default function HeroSlide() {
               📅 30 November 2026
             </span>
             <span style={{
-              fontFamily: 'Cormorant Garamond, serif',
+              fontFamily: 'Playfair Display, serif',
               fontSize: '13px', color: 'rgba(74,32,16,0.65)',
               background: 'rgba(196,132,26,0.1)',
               borderRadius: '4px', padding: '4px 12px',
@@ -180,7 +180,7 @@ export default function HeroSlide() {
           </motion.div>
 
           <motion.p variants={fadeUp} style={{
-            fontFamily: 'Noto Serif Devanagari, serif',
+            fontFamily: 'Laila, serif',
             fontSize: '12px', color: 'rgba(74,32,16,0.5)',
             marginTop: '8px', letterSpacing: '1px',
           }}>

@@ -11,7 +11,7 @@ function CountBox({ value, label }) {
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.28 }}
         style={{
-          fontFamily: 'Cormorant Garamond, serif',
+          fontFamily: 'Playfair Display, serif',
           fontSize: '46px', fontWeight: 600, lineHeight: 1,
           background: 'linear-gradient(180deg, #f5d478, #c4841a)',
           WebkitBackgroundClip: 'text',
@@ -22,7 +22,7 @@ function CountBox({ value, label }) {
         {String(value ?? 0).padStart(2, '0')}
       </motion.div>
       <div style={{
-        fontFamily: 'Noto Serif Devanagari, serif',
+        fontFamily: 'Laila, serif',
         fontSize: '9px', letterSpacing: '1px',
         color: 'rgba(245,228,192,0.7)', marginTop: '5px',
       }}>
@@ -70,7 +70,7 @@ export default function CountdownSlide() {
           viewport={{ once: true, margin: '-80px' }}
         >
           <motion.p variants={fadeUp} style={{
-            fontFamily: 'Noto Serif Devanagari, serif',
+            fontFamily: 'Laila, serif',
             fontSize: '24px', color: 'rgba(245,210,100,0.9)',
             marginBottom: '4px',
           }}>
@@ -78,7 +78,7 @@ export default function CountdownSlide() {
           </motion.p>
 
           <motion.p variants={fadeUp} style={{
-            fontFamily: 'Cormorant Garamond, serif',
+            fontFamily: 'Playfair Display, serif',
             fontStyle: 'italic', fontSize: '14px',
             color: 'rgba(245,228,192,0.55)',
             letterSpacing: '4px', textTransform: 'uppercase',
@@ -96,16 +96,16 @@ export default function CountdownSlide() {
             border: '1px solid rgba(245,208,96,0.3)',
           }}>
             <CountBox value={days} label="दिन / Days" />
-            <div style={{ color: 'rgba(245,208,96,0.4)', fontFamily: 'Cormorant Garamond, serif', fontSize: '32px', alignSelf: 'center' }}>:</div>
+            <div style={{ color: 'rgba(245,208,96,0.4)', fontFamily: 'Playfair Display, serif', fontSize: '32px', alignSelf: 'center' }}>:</div>
             <CountBox value={hours} label="घंटे / Hrs" />
-            <div style={{ color: 'rgba(245,208,96,0.4)', fontFamily: 'Cormorant Garamond, serif', fontSize: '32px', alignSelf: 'center' }}>:</div>
+            <div style={{ color: 'rgba(245,208,96,0.4)', fontFamily: 'Playfair Display, serif', fontSize: '32px', alignSelf: 'center' }}>:</div>
             <CountBox value={minutes} label="मिनट / Min" />
-            <div style={{ color: 'rgba(245,208,96,0.4)', fontFamily: 'Cormorant Garamond, serif', fontSize: '32px', alignSelf: 'center' }}>:</div>
+            <div style={{ color: 'rgba(245,208,96,0.4)', fontFamily: 'Playfair Display, serif', fontSize: '32px', alignSelf: 'center' }}>:</div>
             <CountBox value={seconds} label="सेकंड / Sec" />
           </motion.div>
 
           <motion.p variants={fadeUp} style={{
-            fontFamily: 'Cormorant Garamond, serif',
+            fontFamily: 'Playfair Display, serif',
             fontSize: '16px', letterSpacing: '3px',
             color: 'rgba(245,210,100,0.65)', marginTop: '28px',
           }}>

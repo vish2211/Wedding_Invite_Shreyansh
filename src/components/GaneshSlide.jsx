@@ -127,7 +127,7 @@ export default function GaneshSlide() {
       >
         {/* ✦  ॐ  ✦ */}
         <motion.p variants={fadeUp} style={{
-          fontFamily: 'Noto Serif Devanagari, serif',
+          fontFamily: 'Laila, serif',
           fontSize: '22px', fontWeight: 400,
           color: GOLD, letterSpacing: '12px',
           marginBottom: '18px',
@@ -181,7 +181,7 @@ export default function GaneshSlide() {
 
         {/* ॥ श्री गणेशाय नमः ॥ */}
         <motion.p variants={fadeUp} style={{
-          fontFamily: 'Noto Serif Devanagari, serif',
+          fontFamily: 'Laila, serif',
           fontSize: '20px', fontWeight: 500,
           color: DEEP, letterSpacing: '1px',
           marginBottom: '4px',
@@ -191,7 +191,7 @@ export default function GaneshSlide() {
         </motion.p>
 
         <motion.p variants={fadeUp} style={{
-          fontFamily: 'Cormorant Garamond, serif',
+          fontFamily: 'Playfair Display, serif',
           fontStyle: 'italic', fontSize: '11px',
           letterSpacing: '5px', textTransform: 'uppercase',
           color: SAFFRON, opacity: 0.70, marginBottom: '20px',
@@ -206,7 +206,7 @@ export default function GaneshSlide() {
 
         {/* Vakratunda shloka */}
         <motion.p variants={fadeUp} style={{
-          fontFamily: 'Noto Serif Devanagari, serif',
+          fontFamily: 'Laila, serif',
           fontSize: '17px', fontWeight: 400,
           color: DEEP, lineHeight: 2.2,
           marginBottom: '18px',
@@ -224,7 +224,7 @@ export default function GaneshSlide() {
 
         {/* wedding jingle */}
         <motion.p variants={fadeUp} style={{
-          fontFamily: 'Noto Serif Devanagari, serif',
+          fontFamily: 'Laila, serif',
           fontSize: '15px', fontWeight: 400,
           color: DEEP_MED, lineHeight: 2.1,
           marginBottom: '20px',

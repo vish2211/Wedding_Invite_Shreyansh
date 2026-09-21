@@ -65,7 +65,7 @@ export default function FinalSlide() {
         </motion.div>
 
         <motion.p variants={fadeUp} style={{
-          fontFamily: 'Noto Serif Devanagari, serif',
+          fontFamily: 'Laila, serif',
           fontSize: '20px', color: 'rgba(245,210,100,0.88)',
           marginBottom: '4px',
         }}>
@@ -73,7 +73,7 @@ export default function FinalSlide() {
         </motion.p>
 
         <motion.p variants={fadeUp} style={{
-          fontFamily: 'Cormorant Garamond, serif',
+          fontFamily: 'Playfair Display, serif',
           fontStyle: 'italic', fontSize: '12px',
           letterSpacing: '4px', textTransform: 'uppercase',
           color: 'rgba(245,228,192,0.4)', marginBottom: '22px',
@@ -82,7 +82,7 @@ export default function FinalSlide() {
         </motion.p>
 
         <motion.h2 variants={fadeUp} style={{
-          fontFamily: 'Great Vibes, cursive',
+          fontFamily: 'Pinyon Script, cursive',
           fontSize: '58px',
           background: 'linear-gradient(90deg, #7a3800, #c4841a, #f5d060, #c4841a, #7a3800)',
           backgroundSize: '200%',
@@ -116,19 +116,19 @@ export default function FinalSlide() {
           display: 'flex', gap: '10px', justifyContent: 'center', alignItems: 'center',
         }}>
           <motion.span variants={fadeUp} style={{
-            fontFamily: 'Great Vibes, cursive', fontSize: '36px', color: '#c4841a',
+            fontFamily: 'Pinyon Script, cursive', fontSize: '36px', color: '#c4841a',
           }}>Vishakha</motion.span>
           <span style={{
-            fontFamily: 'Noto Serif Devanagari, serif',
+            fontFamily: 'Laila, serif',
             color: 'rgba(196,132,26,0.4)', fontSize: '20px',
           }}>&amp;</span>
           <motion.span variants={fadeUp} style={{
-            fontFamily: 'Great Vibes, cursive', fontSize: '36px', color: '#c4841a',
+            fontFamily: 'Pinyon Script, cursive', fontSize: '36px', color: '#c4841a',
           }}>Shreyansh</motion.span>
         </motion.div>
 
         <motion.p variants={fadeUp} style={{
-          fontFamily: 'Noto Serif Devanagari, serif',
+          fontFamily: 'Laila, serif',
           fontSize: '11px', color: 'rgba(245,210,100,0.3)',
           marginTop: '36px', letterSpacing: '2px',
         }}>

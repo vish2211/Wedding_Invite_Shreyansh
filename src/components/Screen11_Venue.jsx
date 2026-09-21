@@ -30,12 +30,12 @@ function VenueCard({ name, hindiTag, address, maps, accent }) {
         <span style={{ fontSize: '22px', marginTop: '1px' }}>📍</span>
         <div>
           <p style={{
-            fontFamily: 'Noto Serif Devanagari, serif',
+            fontFamily: 'Laila, serif',
             fontSize: '18px', fontWeight: 400,
             color: GOLD_LIGHT, lineHeight: 1.25, marginBottom: '3px',
           }}>{name}</p>
           <p style={{
-            fontFamily: 'Cormorant Garamond, serif',
+            fontFamily: 'Playfair Display, serif',
             fontSize: '13px', color: TEXT_MUTED, lineHeight: 1.45,
           }}>{address}</p>
         </div>
@@ -43,7 +43,7 @@ function VenueCard({ name, hindiTag, address, maps, accent }) {
 
       {hindiTag && (
         <p style={{
-          fontFamily: 'Noto Serif Devanagari, serif',
+          fontFamily: 'Laila, serif',
           fontSize: '12px', color: accent, opacity: 0.80,
           marginBottom: '12px', letterSpacing: '1px',
         }}>{hindiTag}</p>
@@ -59,7 +59,7 @@ function VenueCard({ name, hindiTag, address, maps, accent }) {
           border: `1px solid ${accent}50`,
           color: accent,
           borderRadius: '4px',
-          fontFamily: 'Cormorant Garamond, serif',
+          fontFamily: 'Playfair Display, serif',
           fontSize: '12px', letterSpacing: '2px', textTransform: 'uppercase',
           textDecoration: 'none',
         }}
@@ -99,7 +99,7 @@ export default function Screen11_Venue() {
         style={{ position: 'relative', zIndex: 1, width: '100%', maxWidth: '360px' }}
       >
         <motion.p variants={fadeUp} style={{
-          fontFamily: 'Cormorant Garamond, serif',
+          fontFamily: 'Playfair Display, serif',
           fontStyle: 'italic', fontSize: '11px',
           letterSpacing: '6px', textTransform: 'uppercase',
           color: GOLD_DIM, marginBottom: '8px',
@@ -108,7 +108,7 @@ export default function Screen11_Venue() {
         </motion.p>
 
         <motion.h2 variants={fadeUp} style={{
-          fontFamily: 'Noto Serif Devanagari, serif',
+          fontFamily: 'Laila, serif',
           fontSize: '34px', fontWeight: 400,
           color: GOLD_LIGHT, marginBottom: '6px',
         }}>
@@ -121,7 +121,7 @@ export default function Screen11_Venue() {
 
         {/* Haldi & Mehendi venue */}
         <motion.p variants={fadeUp} style={{
-          fontFamily: 'Cormorant Garamond, serif',
+          fontFamily: 'Playfair Display, serif',
           fontSize: '11px', letterSpacing: '4px',
           textTransform: 'uppercase',
           color: 'rgba(255,215,100,0.55)',
@@ -140,7 +140,7 @@ export default function Screen11_Venue() {
 
         {/* Wedding venue */}
         <motion.p variants={fadeUp} style={{
-          fontFamily: 'Cormorant Garamond, serif',
+          fontFamily: 'Playfair Display, serif',
           fontSize: '11px', letterSpacing: '4px',
           textTransform: 'uppercase',
           color: 'rgba(245,175,170,0.55)',

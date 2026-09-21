@@ -21,7 +21,7 @@ export default function Screen8_Mehendi() {
           color: MCL, marginBottom: '4px',
         }}>The Ceremony</p>
         <h2 style={{
-          fontFamily: 'Cormorant Garamond, serif',
+          fontFamily: 'Playfair Display, serif',
           fontSize: '56px', fontWeight: 300,
           lineHeight: 0.9, margin: 0,
           color: '#0A1E10', letterSpacing: '6px',
@@ -58,7 +58,7 @@ export default function Screen8_Mehendi() {
         }}
       >
         <motion.p variants={fadeUp} style={{
-          fontFamily: 'Cormorant Garamond, serif',
+          fontFamily: 'Playfair Display, serif',
           fontStyle: 'italic', fontSize: '15px',
           color: '#1A5A3A', lineHeight: 1.6,
           marginBottom: '6px',

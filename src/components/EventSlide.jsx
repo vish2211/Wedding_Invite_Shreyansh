@@ -77,13 +77,13 @@ function PhotoLayout({ t, bgImage, objPos = 'center top', labelHindi, label, hea
           style={{ padding: '28px 24px 0', textAlign: 'center' }}
         >
           <p style={{
-            fontFamily: 'Noto Serif Devanagari, serif',
+            fontFamily: 'Laila, serif',
             fontSize: '18px', color: 'rgba(255,235,150,0.95)',
             letterSpacing: '1px', marginBottom: '4px',
             textShadow: '0 1px 8px rgba(0,0,0,0.5)',
           }}>{labelHindi}</p>
           <p style={{
-            fontFamily: 'Cormorant Garamond, serif',
+            fontFamily: 'Playfair Display, serif',
             fontStyle: 'italic', fontSize: '11px',
             letterSpacing: '5px', textTransform: 'uppercase',
             color: 'rgba(255,235,150,0.65)',
@@ -114,7 +114,7 @@ function PhotoLayout({ t, bgImage, objPos = 'center top', labelHindi, label, hea
             {/* heading row */}
             <motion.div variants={fadeUp} style={{ display: 'flex', alignItems: 'baseline', gap: '10px', marginBottom: '4px' }}>
               <h2 style={{
-                fontFamily: 'Great Vibes, cursive',
+                fontFamily: 'Pinyon Script, cursive',
                 fontSize: '54px', lineHeight: 1,
                 color: hc, margin: 0,
               }}>{heading}</h2>
@@ -137,7 +137,7 @@ function PhotoLayout({ t, bgImage, objPos = 'center top', labelHindi, label, hea
 
             {verse && (
               <motion.p variants={fadeUp} style={{
-                fontFamily: 'Noto Serif Devanagari, serif',
+                fontFamily: 'Laila, serif',
                 fontSize: '12px', lineHeight: 1.8,
                 color: `${hc}cc`, marginBottom: '12px',
                 paddingBottom: '10px',
@@ -160,7 +160,7 @@ function PhotoLayout({ t, bgImage, objPos = 'center top', labelHindi, label, hea
                   padding: '8px 12px', border: `1px solid ${hc}1A`,
                 }}>
                   <span style={{ fontSize: '13px', marginTop: '2px' }}>{icon}</span>
-                  <span style={{ fontFamily: 'Cormorant Garamond, serif', fontSize: '14px', color: '#2a0808', lineHeight: 1.4 }}>{text}</span>
+                  <span style={{ fontFamily: 'Playfair Display, serif', fontSize: '14px', color: '#2a0808', lineHeight: 1.4 }}>{text}</span>
                 </motion.div>
               ))}
             </motion.div>
@@ -170,7 +170,7 @@ function PhotoLayout({ t, bgImage, objPos = 'center top', labelHindi, label, hea
                 display: 'inline-flex', alignItems: 'center', gap: '8px',
                 marginTop: '12px', padding: '10px 20px',
                 background: hc, color: '#fff', borderRadius: '4px',
-                fontFamily: 'Cormorant Garamond, serif',
+                fontFamily: 'Playfair Display, serif',
                 fontSize: '13px', letterSpacing: '2px',
                 textTransform: 'uppercase', textDecoration: 'none',
                 boxShadow: `0 4px 14px ${hc}55`,
@@ -231,21 +231,21 @@ function ParchmentLayout({ t, labelHindi, label, heading, description, date, tim
 
         {labelHindi && (
           <motion.p variants={fadeUp} style={{
-            fontFamily: 'Noto Serif Devanagari, serif',
+            fontFamily: 'Laila, serif',
             fontSize: '15px', color: hc,
             opacity: 0.85, marginBottom: '2px', letterSpacing: '1px',
           }}>{labelHindi}</motion.p>
         )}
 
         <motion.p variants={fadeUp} style={{
-          fontFamily: 'Cormorant Garamond, serif',
+          fontFamily: 'Playfair Display, serif',
           fontStyle: 'italic', fontSize: '12px',
           letterSpacing: '4px', textTransform: 'uppercase',
           color: hc, opacity: 0.6, marginBottom: '8px',
         }}>{label}</motion.p>
 
         <motion.h2 variants={fadeLeft} style={{
-          fontFamily: 'Great Vibes, cursive',
+          fontFamily: 'Pinyon Script, cursive',
           fontSize: '66px', lineHeight: 1,
           color: hc, marginBottom: '12px',
         }}>{heading}</motion.h2>
@@ -271,7 +271,7 @@ function ParchmentLayout({ t, labelHindi, label, heading, description, date, tim
             padding: '12px 16px', marginBottom: '16px',
           }}>
             <p style={{
-              fontFamily: 'Noto Serif Devanagari, serif',
+              fontFamily: 'Laila, serif',
               fontSize: '14px', lineHeight: 1.85,
               color: `${hc}cc`, fontStyle: 'italic',
             }}>{verse}</p>
@@ -291,7 +291,7 @@ function ParchmentLayout({ t, labelHindi, label, heading, description, date, tim
               padding: '10px 14px', border: `1px solid ${t.border}`,
             }}>
               <span style={{ fontSize: '14px', marginTop: '2px' }}>{icon}</span>
-              <span style={{ fontFamily: 'Cormorant Garamond, serif', fontSize: '15px', color: '#2a0808', lineHeight: 1.4 }}>{text}</span>
+              <span style={{ fontFamily: 'Playfair Display, serif', fontSize: '15px', color: '#2a0808', lineHeight: 1.4 }}>{text}</span>
             </motion.div>
           ))}
         </motion.div>
@@ -301,7 +301,7 @@ function ParchmentLayout({ t, labelHindi, label, heading, description, date, tim
             display: 'inline-flex', alignItems: 'center', gap: '8px',
             padding: '11px 22px', background: hc, color: '#fff',
             borderRadius: '4px',
-            fontFamily: 'Cormorant Garamond, serif',
+            fontFamily: 'Playfair Display, serif',
             fontSize: '14px', letterSpacing: '2px',
             textTransform: 'uppercase', textDecoration: 'none',
             boxShadow: `0 4px 18px ${hc}44`,

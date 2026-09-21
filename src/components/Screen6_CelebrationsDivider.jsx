@@ -42,7 +42,7 @@ export default function Screen6_CelebrationsDivider() {
         <motion.p
           variants={fadeUp}
           style={{
-            fontFamily: 'Cormorant Garamond, serif',
+            fontFamily: 'Playfair Display, serif',
             fontStyle: 'italic', fontSize: '12px',
             letterSpacing: '6px', textTransform: 'uppercase',
             color: GOLD, opacity: 0.55, marginBottom: '12px',
@@ -55,7 +55,7 @@ export default function Screen6_CelebrationsDivider() {
         <motion.h1
           variants={fadeUp}
           style={{
-            fontFamily: 'Noto Serif Devanagari, serif',
+            fontFamily: 'Laila, serif',
             fontSize: '36px', fontWeight: 400,
             color: '#2A1505', lineHeight: 1.4,
             marginBottom: '14px',
@@ -100,16 +100,16 @@ export default function Screen6_CelebrationsDivider() {
             }}
           >
             <p style={{
-              fontFamily: 'Noto Serif Devanagari, serif',
+              fontFamily: 'Laila, serif',
               fontSize: '16px', color: '#3A1505',
             }}>{ev.hindi}</p>
             <div style={{ textAlign: 'right' }}>
               <p style={{
-                fontFamily: 'Noto Serif Devanagari, serif',
+                fontFamily: 'Laila, serif',
                 fontSize: '12px', color: GOLD, opacity: 0.80,
               }}>{ev.date}</p>
               <p style={{
-                fontFamily: 'Noto Serif Devanagari, serif',
+                fontFamily: 'Laila, serif',
                 fontSize: '11px', color: '#9A7050',
               }}>{ev.time}</p>
             </div>

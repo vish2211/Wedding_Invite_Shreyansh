@@ -21,7 +21,7 @@ export default function Screen9_Wedding() {
           color: WCL, marginBottom: '4px',
         }}>30 November 2026</p>
         <h2 style={{
-          fontFamily: 'Cormorant Garamond, serif',
+          fontFamily: 'Playfair Display, serif',
           fontSize: '48px', fontWeight: 300,
           lineHeight: 0.9, margin: 0,
           color: WC, letterSpacing: '4px',
@@ -58,7 +58,7 @@ export default function Screen9_Wedding() {
         }}
       >
         <motion.p variants={fadeUp} style={{
-          fontFamily: 'Cormorant Garamond, serif',
+          fontFamily: 'Playfair Display, serif',
           fontStyle: 'italic', fontSize: '15px',
           color: WCL, lineHeight: 1.6,
           marginBottom: '6px',

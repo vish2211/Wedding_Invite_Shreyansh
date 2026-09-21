@@ -103,7 +103,7 @@ export default function Screen12_FamilyBlessings() {
 
         {/* मंगलकामना */}
         <motion.h1 variants={fadeUp} style={{
-          fontFamily: 'Noto Serif Devanagari, serif',
+          fontFamily: 'Laila, serif',
           fontSize: '36px', fontWeight: 600,
           color: GOLD,
           letterSpacing: '2px',
@@ -120,15 +120,13 @@ export default function Screen12_FamilyBlessings() {
 
         {/* Sanskrit shloka */}
         <motion.p variants={fadeUp} style={{
-          fontFamily: 'Noto Serif Devanagari, serif',
+          fontFamily: 'Laila, serif',
           fontSize: '15px', fontWeight: 400,
           color: CREAM, lineHeight: 2.2,
           marginBottom: '18px',
         }}>
-          मंगलं भगवान विष्णुः<br />
-          मंगलं गरुड़ध्वजः।<br />
-          मंगलं पुण्डरीकाक्षः<br />
-          मंगलाय तनो हरिः॥
+          मंगलं भगवान विष्णुः मंगलं गरुड़ध्वजः।<br />
+          मंगलं पुण्डरीकाक्षः मंगलाय तनो हरिः॥
         </motion.p>
 
         <motion.div variants={fadeUp} style={{ marginBottom: '18px' }}>
@@ -137,7 +135,7 @@ export default function Screen12_FamilyBlessings() {
 
         {/* blessing message */}
         <motion.p variants={fadeUp} style={{
-          fontFamily: 'Noto Serif Devanagari, serif',
+          fontFamily: 'Laila, serif',
           fontSize: '14px', fontWeight: 400,
           color: CREAM, lineHeight: 2.1,
           marginBottom: '18px',
@@ -154,8 +152,8 @@ export default function Screen12_FamilyBlessings() {
 
         {/* second blessing */}
         <motion.p variants={fadeUp} style={{
-          fontFamily: 'Noto Serif Devanagari, serif',
-          fontSize: '14px', fontWeight: 400,
+          fontFamily: 'Laila, serif',
+          fontSize: '15px', fontWeight: 500,
           color: CREAM_DIM, lineHeight: 2.1,
           marginBottom: '18px',
         }}>
@@ -170,7 +168,7 @@ export default function Screen12_FamilyBlessings() {
 
         {/* ❦ विशाखा ♥ श्रेयांश ❦ */}
         <motion.p variants={fadeUp} style={{
-          fontFamily: 'Noto Serif Devanagari, serif',
+          fontFamily: 'Laila, serif',
           fontSize: '18px', fontWeight: 500,
           color: GOLD,
           letterSpacing: '2px',
@@ -182,8 +180,8 @@ export default function Screen12_FamilyBlessings() {
 
         {/* family names */}
         <motion.p variants={fadeUp} style={{
-          fontFamily: 'Noto Serif Devanagari, serif',
-          fontSize: '13px', fontWeight: 300,
+          fontFamily: 'Laila, serif',
+          fontSize: '15px', fontWeight: 400,
           color: CREAM_DIM,
           letterSpacing: '1px',
           marginBottom: '20px',
@@ -193,7 +191,7 @@ export default function Screen12_FamilyBlessings() {
 
         {/* ॥ शुभमस्तु ॥ */}
         <motion.p variants={fadeUp} style={{
-          fontFamily: 'Noto Serif Devanagari, serif',
+          fontFamily: 'Laila, serif',
           fontSize: '22px', fontWeight: 600,
           color: GOLD,
           letterSpacing: '3px',
