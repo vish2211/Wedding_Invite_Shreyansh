@@ -81,10 +81,10 @@ export default function Screen6_CelebrationsDivider() {
 
         {/* events list preview */}
         {[
-          { hindi: 'हल्दी', date: '२९ नवंबर', time: 'प्रातः ११ बजे' },
-          { hindi: 'मेहंदी', date: '२९ नवंबर', time: 'सायं ५ बजे' },
+          { hindi: 'हल्दी',    date: '२७ नवंबर', time: 'दोपहर २ बजे' },
+          { hindi: 'मेहंदी',   date: '२७ नवंबर', time: 'सायं ४ बजे' },
           { hindi: 'शुभ विवाह', date: '३० नवंबर', time: 'शुभ मुहूर्त' },
-          { hindi: 'विवाह भोज', date: '३० नवंबर', time: 'सायं ७ बजे' },
+          { hindi: 'विवाह भोज', date: '३० नवंबर', time: 'रात्रि ९:३० बजे' },
         ].map((ev, i) => (
           <motion.div
             key={i}
