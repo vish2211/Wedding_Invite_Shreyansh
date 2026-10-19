@@ -19,7 +19,7 @@ export default function Screen7_Haldi() {
           fontWeight: 300, fontSize: '10px',
           letterSpacing: '5px', textTransform: 'uppercase',
           color: HCL, marginBottom: '4px',
-        }}>The Ceremony</p>
+        }}></p>
         <h2 style={{
           fontFamily: 'Playfair Display, serif',
           fontSize: '56px', fontWeight: 300,
@@ -63,7 +63,7 @@ export default function Screen7_Haldi() {
           color: '#7A4A00', lineHeight: 1.6,
           marginBottom: '6px',
         }}>
-          A joyful morning filled with love,<br />laughter and turmeric blessings
+          A joyful noon filled with love,<br />laughter and turmeric blessings
         </motion.p>
 
         <motion.div variants={fadeUp} style={{ width: '44px', height: '1px', background: HCL, marginBottom: '6px' }} />

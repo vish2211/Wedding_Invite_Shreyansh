@@ -19,7 +19,7 @@ export default function Screen8_Mehendi() {
           fontWeight: 300, fontSize: '10px',
           letterSpacing: '5px', textTransform: 'uppercase',
           color: MCL, marginBottom: '4px',
-        }}>The Ceremony</p>
+        }}></p>
         <h2 style={{
           fontFamily: 'Playfair Display, serif',
           fontSize: '56px', fontWeight: 300,

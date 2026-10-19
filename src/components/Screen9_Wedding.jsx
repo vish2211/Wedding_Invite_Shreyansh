@@ -69,7 +69,6 @@ export default function Screen9_Wedding() {
         <motion.div variants={fadeUp} style={{ width: '44px', height: '1px', background: WCL, marginBottom: '6px' }} />
 
         {[
-          { icon: '📅', label: 'Date',           text: '30 November 2026' },
           { icon: '🚗', label: 'Barat Departure', text: '1:00 PM\nFrom Our Residence, Gopalganj' },
           { icon: '🏨', label: 'Janvasa',          text: 'Hotel Surya Inn\nTribhuvan More, Patna' },
           { icon: '💐', label: 'Jaymala Ceremony', text: '9:00 PM onwards' },
