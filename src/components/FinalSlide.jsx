@@ -117,14 +117,14 @@ export default function FinalSlide() {
         }}>
           <motion.span variants={fadeUp} style={{
             fontFamily: 'Pinyon Script, cursive', fontSize: '36px', color: '#c4841a',
-          }}>Shreyansh</motion.span>
+          }}>Vishakha</motion.span>
           <span style={{
             fontFamily: 'Laila, serif',
             color: 'rgba(196,132,26,0.4)', fontSize: '20px',
           }}>&amp;</span>
           <motion.span variants={fadeUp} style={{
             fontFamily: 'Pinyon Script, cursive', fontSize: '36px', color: '#c4841a',
-          }}>Vishakha</motion.span>
+          }}>Shreyansh</motion.span>
         </motion.div>
 
         <motion.p variants={fadeUp} style={{

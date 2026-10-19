@@ -88,7 +88,7 @@ export default function EnvelopeIntro({ onComplete, musicOn, onMusicToggle }) {
           marginBottom: '14px',
           lineHeight: 1.6,
         }}>
-          Jha Family &amp; Mishra Family
+          Mishra Family &amp; Jha Family
         </p>
 
         {/* date line */}

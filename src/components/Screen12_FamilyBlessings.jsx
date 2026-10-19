@@ -141,7 +141,7 @@ export default function Screen12_FamilyBlessings() {
           marginBottom: '18px',
         }}>
           ईश्वर से हमारी प्रार्थना है कि<br />
-          श्रेयांश एवं विशाखा का यह वैवाहिक जीवन<br />
+          विशाखा एवं श्रेयांश का यह वैवाहिक जीवन<br />
           प्रेम, विश्वास, सौहार्द एवं सुख-समृद्धि से<br />
           सदैव परिपूर्ण रहे।
         </motion.p>
@@ -158,7 +158,7 @@ export default function Screen12_FamilyBlessings() {
           marginBottom: '18px',
         }}>
           नवजीवन की इस मंगल यात्रा में<br />
-          श्रेयांश एवं विशाखा पर अपना स्नेह,<br />
+          विशाखा एवं श्रेयांश पर अपना स्नेह,<br />
           आशीर्वाद एवं शुभकामनाएँ बनाए रखें।
         </motion.p>
 
@@ -166,7 +166,7 @@ export default function Screen12_FamilyBlessings() {
           <GoldRule />
         </motion.div>
 
-        {/* ❦ श्रेयांश ♥ विशाखा ❦ */}
+        {/* ❦ विशाखा ♥ श्रेयांश ❦ */}
         <motion.p variants={fadeUp} style={{
           fontFamily: 'Laila, serif',
           fontSize: '18px', fontWeight: 500,
@@ -175,7 +175,7 @@ export default function Screen12_FamilyBlessings() {
           marginBottom: '8px',
           textShadow: '0 0 18px rgba(232,192,96,0.30)',
         }}>
-          ❦ श्रेयांश ♥ विशाखा ❦
+          ❦ विशाखा ♥ श्रेयांश ❦
         </motion.p>
 
         {/* family names */}
@@ -186,7 +186,7 @@ export default function Screen12_FamilyBlessings() {
           letterSpacing: '1px',
           marginBottom: '20px',
         }}>
-          झा परिवार एवं मिश्रा परिवार
+          मिश्रा परिवार एवं झा परिवार
         </motion.p>
 
         {/* ॥ शुभमस्तु ॥ */}
