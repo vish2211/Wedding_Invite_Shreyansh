@@ -19,7 +19,7 @@ export default function Screen9_Wedding() {
           fontWeight: 300, fontSize: '10px',
           letterSpacing: '5px', textTransform: 'uppercase',
           color: WCL, marginBottom: '4px',
-        }}>30 November 2026</p>
+        }}></p>
         <h2 style={{
           fontFamily: 'Playfair Display, serif',
           fontSize: '48px', fontWeight: 300,
