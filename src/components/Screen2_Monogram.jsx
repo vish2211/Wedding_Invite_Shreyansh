@@ -25,7 +25,7 @@ function VSMonogram() {
         lineHeight: 1,
         display: 'block',
         filter: 'drop-shadow(0 2px 6px rgba(0,0,0,0.8))',
-      }}>SV</span>
+      }}>VS</span>
     </div>
   )
 }
