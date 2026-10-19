@@ -19,7 +19,7 @@ export default function Screen9_Wedding() {
           fontWeight: 300, fontSize: '10px',
           letterSpacing: '5px', textTransform: 'uppercase',
           color: WCL, marginBottom: '4px',
-        }}></p>
+        }}>30 November 2026</p>
         <h2 style={{
           fontFamily: 'Playfair Display, serif',
           fontSize: '48px', fontWeight: 300,
@@ -69,10 +69,10 @@ export default function Screen9_Wedding() {
         <motion.div variants={fadeUp} style={{ width: '44px', height: '1px', background: WCL, marginBottom: '6px' }} />
 
         {[
-          { icon: '🚗', label: 'Barat Departure', text: '1:00 PM\nFrom Our Residence, Gopalganj' },
-          { icon: '🏨', label: 'Janvasa',          text: 'Hotel Surya Inn\nTribhuvan More, Patna' },
-          { icon: '💐', label: 'Jaymala Ceremony', text: '9:00 PM onwards' },
-          { icon: '📍', label: 'Venue',            text: 'Sky Blue Resort, Patna' },
+          { icon: '🍽️', label: 'Dinner & Reception', text: '7:00 PM onwards' },
+          { icon: '🎺', label: 'Barat Arrival',       text: '8:00 PM onwards' },
+          { icon: '💐', label: 'Jaymala Ceremony',    text: '9:00 PM onwards' },
+          { icon: '📍', label: 'Venue',               text: 'Sky Blue Resort, Patna' },
         ].map(({ icon, label, text }) => (
           <motion.div key={label} variants={fadeUp} style={{
             display: 'flex', alignItems: 'flex-start', gap: '12px',
@@ -97,6 +97,23 @@ export default function Screen9_Wedding() {
           </motion.div>
         ))}
 
+        <motion.a
+          variants={fadeUp}
+          href="https://maps.google.com/?q=Sky+Blue+Resort+Patna"
+          target="_blank" rel="noopener noreferrer"
+          style={{
+            display: 'inline-flex', alignItems: 'center', justifyContent: 'center', gap: '8px',
+            marginTop: '4px', padding: '12px 24px',
+            background: WC, color: '#fff', borderRadius: '8px',
+            fontFamily: 'Poppins, sans-serif',
+            fontWeight: 500, fontSize: '11px',
+            letterSpacing: '1.5px', textTransform: 'uppercase',
+            textDecoration: 'none',
+            boxShadow: '0 4px 16px rgba(90,10,26,0.38)',
+          }}
+        >
+          📍  View on Google Maps
+        </motion.a>
       </motion.div>
     </section>
   )
