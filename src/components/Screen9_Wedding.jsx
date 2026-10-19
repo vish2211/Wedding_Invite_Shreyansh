@@ -69,10 +69,10 @@ export default function Screen9_Wedding() {
         <motion.div variants={fadeUp} style={{ width: '44px', height: '1px', background: WCL, marginBottom: '6px' }} />
 
         {[
-          { icon: '🍽️', label: 'Dinner & Reception',  text: '7:00 PM onwards' },
-          { icon: '🎺', label: 'Barat Arrival',       text: '8:00 PM onwards' },
-          { icon: '💐', label: 'Jaymala Ceremony',    text: '9:00 PM onwards' },
-          { icon: '📍', label: 'Venue',               text: 'Sky Blue Resort, Patna' },
+          { icon: '🚗', label: 'Barat Departure', text: '1:00 PM\nFrom Our Residence, Gopalganj' },
+          { icon: '🏨', label: 'Janvasa',          text: 'Hotel Surya Inn\nTribhuvan More, Patna' },
+          { icon: '💐', label: 'Jaymala Ceremony', text: '9:00 PM onwards' },
+          { icon: '📍', label: 'Venue',            text: 'Sky Blue Resort, Patna' },
         ].map(({ icon, label, text }) => (
           <motion.div key={label} variants={fadeUp} style={{
             display: 'flex', alignItems: 'flex-start', gap: '12px',

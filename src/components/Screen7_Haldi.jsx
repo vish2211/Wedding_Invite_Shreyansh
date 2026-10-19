@@ -69,9 +69,9 @@ export default function Screen7_Haldi() {
         <motion.div variants={fadeUp} style={{ width: '44px', height: '1px', background: HCL, marginBottom: '6px' }} />
 
         {[
-          { icon: '📅', label: 'Date',  text: '29 November 2026' },
-          { icon: '🕐', label: 'Time',  text: '11:00 AM onwards' },
-          { icon: '📍', label: 'Venue', text: 'Bihar Stay, Patna\nOpp. S Raza Girls High School' },
+          { icon: '📅', label: 'Date',  text: '27 November 2026' },
+          { icon: '🕑', label: 'Time',  text: '2:00 PM onwards' },
+          { icon: '📍', label: 'Venue', text: 'At Our Residence\nGopalganj' },
           { icon: '🥻', label: 'Dress', text: 'Yellow / Mustard' },
         ].map(({ icon, label, text }) => (
           <motion.div key={label} variants={fadeUp} style={{
@@ -98,23 +98,6 @@ export default function Screen7_Haldi() {
           </motion.div>
         ))}
 
-        <motion.a
-          variants={fadeUp}
-          href="https://maps.google.com/?q=Bihar+Stay+Patna"
-          target="_blank" rel="noopener noreferrer"
-          style={{
-            display: 'inline-flex', alignItems: 'center', justifyContent: 'center', gap: '8px',
-            marginTop: '4px', padding: '12px 24px',
-            background: HC, color: '#fff', borderRadius: '8px',
-            fontFamily: 'Poppins, sans-serif',
-            fontWeight: 500, fontSize: '11px',
-            letterSpacing: '1.5px', textTransform: 'uppercase',
-            textDecoration: 'none',
-            boxShadow: '0 4px 16px rgba(138,82,0,0.35)',
-          }}
-        >
-          📍  View on Google Maps
-        </motion.a>
       </motion.div>
     </section>
   )

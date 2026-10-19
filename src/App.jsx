@@ -20,7 +20,7 @@ export default function App() {
 
   function toggleMusic() {
     if (!audioRef.current) {
-      const a = new Audio('/music.mp3')
+      const a = new Audio('/Sachet_Tandon_-_Ghantalele.com_-_Kudmayi_Ghantalele.com_(mp3.pm).mp3')
       a.loop = true
       a.volume = 0.30
       a.play().catch(() => {})
