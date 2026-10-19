@@ -86,18 +86,18 @@ export default function HeroSlide() {
             padding: '12px 12px',
           }}>
             <FamilyBlock
-              side="Bride's Family"
-              father="Sachindra Kumar Mishra"
-              mother="Smt. Bandana Mishra"
+              side="Groom's Family"
+              father="Subodh Narayan Jha"
+              mother="Smt. Ranju Jha"
             />
             <div style={{
               width: '1px', alignSelf: 'stretch',
               background: 'rgba(196,132,26,0.28)', flexShrink: 0,
             }} />
             <FamilyBlock
-              side="Groom's Family"
-              father="Subodh Narayan Jha"
-              mother="Smt. Ranju Jha"
+              side="Bride's Family"
+              father="Sachindra Kumar Mishra"
+              mother="Smt. Bandana Mishra"
             />
           </motion.div>
         </motion.div>
@@ -129,13 +129,13 @@ export default function HeroSlide() {
           }}>
             <div style={{ textAlign: 'center' }}>
               <div style={{ ...shimmer, fontFamily: 'Pinyon Script, cursive', fontSize: '46px', lineHeight: 1.1 }}>
-                Vishakha
+                Shreyansh
               </div>
               <p style={{
                 fontFamily: 'Playfair Display, serif', fontSize: '10px',
                 letterSpacing: '3px', color: 'rgba(74,32,16,0.45)',
                 textTransform: 'uppercase',
-              }}>Vaishnavi</p>
+              }}>Shekhar</p>
             </div>
             <span style={{
               color: 'rgba(196,132,26,0.6)',
@@ -144,13 +144,13 @@ export default function HeroSlide() {
             }}>&amp;</span>
             <div style={{ textAlign: 'center' }}>
               <div style={{ ...shimmer, fontFamily: 'Pinyon Script, cursive', fontSize: '46px', lineHeight: 1.1 }}>
-                Shreyansh
+                Vishakha
               </div>
               <p style={{
                 fontFamily: 'Playfair Display, serif', fontSize: '10px',
                 letterSpacing: '3px', color: 'rgba(74,32,16,0.45)',
                 textTransform: 'uppercase',
-              }}>Shekhar</p>
+              }}>Vaishnavi</p>
             </div>
           </motion.div>
 

@@ -25,7 +25,7 @@ function VSMonogram() {
         lineHeight: 1,
         display: 'block',
         filter: 'drop-shadow(0 2px 6px rgba(0,0,0,0.8))',
-      }}>VS</span>
+      }}>SV</span>
     </div>
   )
 }
@@ -85,7 +85,7 @@ export default function Screen2_Monogram() {
               display: 'block',
               filter: 'drop-shadow(0 3px 8px rgba(0,0,0,0.95))',
             }}>
-              Vishakha
+              Shreyansh
             </span>
           </motion.div>
 
@@ -107,7 +107,7 @@ export default function Screen2_Monogram() {
               display: 'block',
               filter: 'drop-shadow(0 3px 8px rgba(0,0,0,0.95))',
             }}>
-              Shreyansh
+              Vishakha
             </span>
           </motion.div>
 
