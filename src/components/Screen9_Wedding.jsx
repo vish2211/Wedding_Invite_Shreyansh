@@ -70,8 +70,8 @@ export default function Screen9_Wedding() {
 
         {[
           { icon: '📅', label: 'Date',            text: '30 November 2026' },
-          { icon: '🍽️', label: 'Dinner & Reception', text: '8:00 PM onwards' },
-          { icon: '🎺', label: 'Barat Arrival',    text: '9:00 PM onwards' },
+          { icon: '🚗', label: 'Barat Departure', text: '1:00 PM\nFrom Our Residence, Gopalganj' },
+          { icon: '🏨', label: 'Janvasa',          text: 'Hotel Surya Inn\nTribhuvan More, Patna' },
           { icon: '💐', label: 'Jaymala Ceremony', text: '9:30 PM onwards' },
           { icon: '📍', label: 'Venue',            text: 'Sky Blue Resort, Patna' },
         ].map(({ icon, label, text }) => (
@@ -93,28 +93,12 @@ export default function Screen9_Wedding() {
                 fontFamily: 'Poppins, sans-serif',
                 fontWeight: 400, fontSize: '13px',
                 color: '#2A0508', lineHeight: 1.55,
+              whiteSpace: 'pre-line',
               }}>{text}</p>
             </div>
           </motion.div>
         ))}
 
-        <motion.a
-          variants={fadeUp}
-          href="https://maps.google.com/?q=Sky+Blue+Resort+Patna"
-          target="_blank" rel="noopener noreferrer"
-          style={{
-            display: 'inline-flex', alignItems: 'center', justifyContent: 'center', gap: '8px',
-            marginTop: '4px', padding: '12px 24px',
-            background: WC, color: '#fff', borderRadius: '8px',
-            fontFamily: 'Poppins, sans-serif',
-            fontWeight: 500, fontSize: '11px',
-            letterSpacing: '1.5px', textTransform: 'uppercase',
-            textDecoration: 'none',
-            boxShadow: '0 4px 16px rgba(90,10,26,0.38)',
-          }}
-        >
-          📍  View on Google Maps
-        </motion.a>
       </motion.div>
     </section>
   )
