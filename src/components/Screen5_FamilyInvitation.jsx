@@ -89,7 +89,7 @@ const poem = (
     खुशियों के इस अवसर पर,<br />
     अपनेपन की यही आस है।<br />
     <br />
-    श्रेयांश और विशाखा के इस शुभ मिलन में,<br />
+    विशाखा और श्रेयांश के इस शुभ मिलन में,<br />
     आपका साथ हमारे लिए सबसे खास है।
   </>
 )
@@ -162,6 +162,39 @@ export default function Screen5_FamilyInvitation() {
         {/* ── two family panels ── */}
         <motion.div variants={fadeUp} style={{ display: 'flex', gap: '10px', marginBottom: '16px' }}>
 
+          {/* वधू पक्ष */}
+          <div style={{
+            flex: 1,
+            background: 'rgba(100,8,25,0.55)',
+            backdropFilter: 'blur(12px)', WebkitBackdropFilter: 'blur(12px)',
+            border: `1px solid rgba(232,192,96,0.35)`,
+            borderRadius: '10px',
+            padding: '14px 10px',
+          }}>
+            <p style={{
+              fontFamily: 'Laila, serif',
+              fontSize: '14px', fontWeight: 600,
+              color: GOLD, marginBottom: '10px',
+              letterSpacing: '1px',
+            }}>❖ वधू पक्ष ❖</p>
+            <div style={{ height: '0.5px', background: 'rgba(232,192,96,0.35)', marginBottom: '10px' }} />
+            {[
+              'सचिन्द्र कुमार मिश्रा',
+              'एवं बन्दना मिश्रा',
+              'कोमल नंदिनी',
+              'एवं समस्त मिश्रा परिवार',
+            ].map((line, i) => (
+              <p key={i} style={{
+                fontFamily: 'Laila, serif',
+                fontSize: i === 3 ? '13px' : '12.5px',
+                fontWeight: i === 3 ? 500 : 400,
+                color: CREAM,
+                lineHeight: 1.85,
+                fontStyle: 'italic',
+              }}>{line}</p>
+            ))}
+          </div>
+
           {/* वर पक्ष */}
           <div style={{
             flex: 1,
@@ -198,39 +231,6 @@ export default function Screen5_FamilyInvitation() {
               }}>{line}</p>
             ))}
           </div>
-
-          {/* वधू पक्ष */}
-          <div style={{
-            flex: 1,
-            background: 'rgba(100,8,25,0.55)',
-            backdropFilter: 'blur(12px)', WebkitBackdropFilter: 'blur(12px)',
-            border: `1px solid rgba(232,192,96,0.35)`,
-            borderRadius: '10px',
-            padding: '14px 10px',
-          }}>
-            <p style={{
-              fontFamily: 'Laila, serif',
-              fontSize: '14px', fontWeight: 600,
-              color: GOLD, marginBottom: '10px',
-              letterSpacing: '1px',
-            }}>❖ वधू पक्ष ❖</p>
-            <div style={{ height: '0.5px', background: 'rgba(232,192,96,0.35)', marginBottom: '10px' }} />
-            {[
-              'सचिन्द्र कुमार मिश्रा',
-              'एवं बन्दना मिश्रा',
-              'कोमल नंदिनी',
-              'एवं समस्त मिश्रा परिवार',
-            ].map((line, i) => (
-              <p key={i} style={{
-                fontFamily: 'Laila, serif',
-                fontSize: i === 3 ? '13px' : '12.5px',
-                fontWeight: i === 3 ? 500 : 400,
-                color: CREAM,
-                lineHeight: 1.85,
-                fontStyle: 'italic',
-              }}>{line}</p>
-            ))}
-          </div>
         </motion.div>
 
         {/* heart divider */}
@@ -252,7 +252,7 @@ export default function Screen5_FamilyInvitation() {
         <motion.div variants={fadeUp} style={{ display: 'flex', alignItems: 'center', gap: '10px', justifyContent: 'center', marginBottom: '4px' }}>
           <div style={{ flex: 1, height: '1px', background: `linear-gradient(to right, transparent, ${GOLD_DIM})` }} />
           <span style={{ fontFamily: 'Great Vibes, cursive', fontSize: '30px', color: GOLD }}>
-            Shreyansh &nbsp; & &nbsp; Vishakha
+            Vishakha &nbsp; & &nbsp; Shreyansh
           </span>
           <div style={{ flex: 1, height: '1px', background: `linear-gradient(to left, transparent, ${GOLD_DIM})` }} />
         </motion.div>

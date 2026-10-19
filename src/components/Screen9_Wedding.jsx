@@ -70,8 +70,8 @@ export default function Screen9_Wedding() {
 
         {[
           { icon: '📅', label: 'Date',            text: '30 November 2026' },
-          { icon: '🚗', label: 'Barat Departure', text: '1:00 PM\nFrom Our Residence, Gopalganj' },
-          { icon: '🏨', label: 'Janvasa',          text: 'Hotel Surya Inn\nTribhuvan More, Patna' },
+          { icon: '🍽️', label: 'Dinner & Reception', text: '8:00 PM onwards' },
+          { icon: '🎺', label: 'Barat Arrival',    text: '9:00 PM onwards' },
           { icon: '💐', label: 'Jaymala Ceremony', text: '9:30 PM onwards' },
           { icon: '📍', label: 'Venue',            text: 'Sky Blue Resort, Patna' },
         ].map(({ icon, label, text }) => (

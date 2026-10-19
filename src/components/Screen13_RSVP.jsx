@@ -225,7 +225,7 @@ export default function Screen13_RSVP() {
               fontSize: '18px', color: '#2A1505',
               margin: '14px 0 4px',
             }}>
-              श्रेयांश &amp; विशाखा
+              विशाखा &amp; श्रेयांश
             </p>
             <p style={{
               fontFamily: 'Playfair Display, serif',

@@ -131,10 +131,10 @@ export default function Screen11_Venue() {
         </motion.p>
 
         <VenueCard
-          name="Bihar Stay"
-          hindiTag="हल्दी · मेहंदी — २९ नवंबर"
-          address="Opposite S. Raza Girls High School, Patna, Bihar"
-          maps="https://maps.google.com/?q=S+Raza+Girls+High+School+Patna"
+          name="At Our Residence"
+          hindiTag="हल्दी · मेहंदी — २७ नवंबर"
+          address="Gopalganj, Bihar"
+          maps="https://maps.google.com/?q=Gopalganj+Bihar"
           accent="rgba(255,215,100,0.80)"
         />
 
